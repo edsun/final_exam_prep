@@ -1,0 +1,67 @@
+body{
+    font-family: sans-serif, serif, cursive;
+    font-size: 12pt;
+}
+
+#header{
+    text-align: center;
+    margin: 0px auto;
+}
+
+#nav{
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#nav ul{
+    list-style: none;
+}
+
+#nav li{
+    display: inline;
+}
+
+#nav > .admin{
+    float: right;
+}
+
+.admin a:active,
+.admin a:hover{
+    color: black;
+}
+
+.admin a:visited,
+.admin a{
+   color: white; 
+}
+
+#main_content{
+    margin: 0px auto;
+    width: 1000px;
+}
+
+.insert_post{
+    width: 250px;
+    margin: 0px auto;
+}
+
+.delete{
+    text-align: left;
+    width: 200px;
+    padding: 2px;
+    margin: 0px auto;
+}
+
+#footer{
+    width: 1000px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#search{
+    width: 200px;
+    margin: 0px auto;
+    text-align: center;
+    display: inline;
+    clear: both;
+}
